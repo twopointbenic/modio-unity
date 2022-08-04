@@ -8,6 +8,10 @@ public class ExampleLoader : MonoBehaviour
 {
     void Start()
     {
+        OpenBrowser();
+    }
+    
+    public void OpenBrowser() {
         ModIOBrowser.Browser.OpenBrowser(null);
     }
 }
